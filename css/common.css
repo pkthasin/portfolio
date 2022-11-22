@@ -62,7 +62,7 @@ body{
     background-color: rgb(68, 68, 68);
     position: relative;
     bottom: 0;
-    height: 130px;  
+    height: 110px;  
     width: 100%;
     border-top: 2px solid rgb(221, 221, 221);
 }
@@ -70,25 +70,46 @@ body{
 #footerline .footer_icon_wrap{
     position: relative;
     height: 90px;
-    width: 500px;
-    margin: 10px 0 0 60px;
+    width: 400px;
+    margin: 10px auto;
 }
 
 #footerline .footer_icon_wrap div{
-    position: relative;
-    width: 80px;
-    height: 80px;
+    position: absolute;
+    width: 60px;
+    height: 60px;
     display: inline-block;
-    margin: 10px auto;
+    margin-top: 5px;
     border: 2px solid white;
+    border-radius: 30%;
+
+    transform: translate(-50%,0);
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+#footerline .footer_icon_wrap .left_icon{
+    left:25%
+}
+
+#footerline .footer_icon_wrap .mid_icon{
+    left:50%
+}
+
+#footerline .footer_icon_wrap .right_icon{
+    left:75%
 }
 
 #footer_container{
     position: absolute;
+    width: 400px;
+    height: 40px;
+
     padding: 10px 0;
     text-align: center;
-    left: 50px;
+    left: 50%;
     bottom: 0px;
     font-weight: bold;
     color: rgb(255, 255, 255);
+    transform: translate(-50%,0);
 }
