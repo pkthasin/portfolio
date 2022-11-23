@@ -1,10 +1,12 @@
 @charset "utf-8";
 @import url(reset.css);
 
-*, *:after, *:before{box-sizing:border-box;}
+*, *:after, *:before{
+    box-sizing:border-box;
+}
 
 body{
-    background: #d0faea 0 0 repeat-x;
+    background: #ffffff 0 0 repeat-x;
     font: 18px Malgun Ghothic,"맑은고딕",sans-serif;
     color: #555;
     min-width:320px;
@@ -13,7 +15,7 @@ body{
 #header_wrap{
     background: 0 100% repeat-x;
     background-color: transparent;
-    margin-bottom: 40px;
+    /* margin-bottom: 40px; */
     border-bottom: 2px solid rgb(221, 221, 221);
 }
 
@@ -32,11 +34,22 @@ body{
     margin:0 auto;  
 }
 
+#main_contents .to_top_button{
+    float: right;
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+
+    border: 2px dashed rgba(0,0,0,0.5);
+    border-radius: 15%;
+}
+
 #gnb{
     position: absolute;
+    width: 100%;
     left: 0;
     bottom: 0;
-    width: 100%;
     z-index: 100;
 }
 
@@ -47,23 +60,24 @@ body{
 }
 
 #gnb > ul > li > a{
-    background-color: transparent;  
-    color: rgb(0, 0, 0);
+    background-color: transparent;
+    height: 45px;  
+    color: rgb(85,85,85);
     font-size: 18px;
     font-weight: bold;
     text-align: center;
     text-decoration: none;
     display: block;
-    height: 45px;
     line-height: 45px;
 }
 
 #footerline{
     background-color: rgb(68, 68, 68);
     position: relative;
-    bottom: 0;
     height: 110px;  
     width: 100%;
+    bottom: 0;
+    clear: both;
     border-top: 2px solid rgb(221, 221, 221);
 }
 
@@ -80,24 +94,28 @@ body{
     height: 60px;
     display: inline-block;
     margin-top: 5px;
-    border: 2px solid white;
-    border-radius: 30%;
+    border: 2px solid rgba(255,255,255,0.5);
+    border-radius: 15%;
 
     transform: translate(-50%,0);
     overflow-x: hidden;
     overflow-y: hidden;
 }
 
-#footerline .footer_icon_wrap .left_icon{
-    left:25%
+#footerline .footer_icon_wrap .home_icon{
+    left:20%
 }
 
-#footerline .footer_icon_wrap .mid_icon{
-    left:50%
+#footerline .footer_icon_wrap .portfolio_icon{
+    left:40%
 }
 
-#footerline .footer_icon_wrap .right_icon{
-    left:75%
+#footerline .footer_icon_wrap .mail_icon{
+    left:60%
+}
+
+#footerline .footer_icon_wrap .github_icon{
+    left:80%
 }
 
 #footer_container{

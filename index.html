@@ -7,8 +7,8 @@
 <link rel="stylesheet" href="css/common.css">
 <link rel="stylesheet" href="css/main.css">
 <script src="js/jquery.js"></script>
-<script src="js/jquery.bxslider.min.js"></script>
-<script src="js/isotope.pkgd.min.js"></script>
+<!-- <script src="js/jquery.bxslider.min.js"></script> -->
+<!-- <script src="js/isotope.pkgd.min.js"></script> -->
 <!-- <script src="js/common.js?ver=1.1"></script> -->
 <!-- <script src="js/main.js?ver=1.1"></script> -->
 
@@ -43,13 +43,13 @@
 			</p> -->
             <nav id="gnb">
                 <ul>
-                    <li class="menu1">
-                        <a href="#">Home</a>
+                    <li class="home">
+                        <a href="#" target="_self">Home</a>
                     </li>
-                    <li class="menu2">
-                        <a href="#">Portfolio</a>
+                    <li class="portfolio">
+                        <a href="#" target="_self">Portfolio</a>
                     </li>
-                    <li class="menu3">
+                    <li class="github" target="_self">
                         <a href="https://github.com/pkthasin">Github</a>
                         </a>
                     </li>
@@ -69,50 +69,93 @@
     <div id="main_contents">
         <section id="main_container" class="square">
             <div class="main_article">
-                <div class="profile">
-                    <div><span>1번</span></div>
-                    <div><span>2번</span></div>
-                    <div><span>3번</span></div>
+                <div class="profileWrap">
+                    <div class="profile_pic"></div>
+                    <div class="profile_title"><h2>박태신</h2></div>
+                    <div class="profile_introduce">
+                        <span>항상 공부하고 발전하는 개발자 박태신입니다.<br>
+                              차근차근 저의 목표인 백엔드 개발자를 향해 나아가는 중 입니다.
+                        </span>
+                    </div>
+                    <div class="profile_links"><a href="mailto:pkthasin@gmail.com">pkthasin@gmail.com</a></div>
                 </div>
-                <div class="technic">
-                    <div><span>4번</span></div>
-                    <div><span>5번</span></div>
-                    <div><span>6번</span></div>
+                <div class="careerWrap">
+                    <div class="career_title">
+                        <h2>경력</h2>
+                    </div>
+                    <!-- <div class="career_contents">
+                        <div class="career_row">
+                            <div class="career_frontPart"></div>
+                            <div class="career_tailPart"></div>
+                        </div>
+                    </div> -->
                 </div>
-                <div class="technic">
-                    <div><span>7번</span></div>
-                    <div><span>8번</span></div>
-                    <div><span>9번</span></div>
+                <div class="technicWrap">
+                    <div class="technic_title">
+                        <h2>기술</h2>
+                    </div>
+                    <!-- <div>
+                        <h3>개발언어</h3>
+                    </div>
+                    <div>
+                        <h3>도구</h3>
+                    </div>
+                    <div>
+                        <h3>자격증</h3>
+                    </div> -->
                 </div>
-                <div class="project">
-                    <div><span>10번</span></div>
+                <div class="educationWrap">
+                    <div class="education_title">
+                        <h2>교육</h2>
+                    </div>
+                    <!--
+                    <div class="education_contents">
+                        <div class="education_row">
+                            <div class="education_frontPart"></div>
+                            <div class="education_tailPart"></div>
+                        </div>
+                    </div> -->
+                </div>
+                <div class="projectWrap">
+                    <div class="project_title">
+                        <h2>프로젝트</h2>
+                    </div>
+                    <!-- <div><span>10번</span></div>
                     <div><span>11번</span></div>
-                    <div><span>12번</span></div>
-                </div>                
+                    <div><span>12번</span></div> -->
+                </div>
             </div>
         </section>
-        <div class="to_top_button"><img src="#" alt="상단이동"></div>
+        <div class="to_top_button">
+                <img src="img/popup/up_arrow.png" alt="상단이동">
+        </div>
     </div>
 <!--main end-->
 <!--footer-->
     <div id="footerline">
         <div class="footer_icon_wrap">
-            <div class="left_icon">
+            <div class="home_icon">
+                <a href="#">
+                    <img src="img/footer/home_icon.png" alt="home">
+                </a>
+            </div>
+            <div class="portfolio_icon">
+                <a href="#">
+                    <img src="img/footer/portfolio_icon.png" alt="portfolio">
+                </a>
+            </div>
+            <div class="mail_icon">
+                <a href="mailto:pkthasin@gmail.com">
+                    <img src="img/footer/email_icon.png" alt="email">
+                </a>
+            </div>
+            <div class="github_icon">
                 <a href="https://github.com/pkthasin">
-                    <img src="img/github.png" alt="github">
-                </a>
-            </div>
-            <div class="mid_icon">
-                <a href="#">
-                    <img src="#" alt="이미지2">
-                </a>
-            </div>
-            <div class="right_icon">
-                <a href="#">
-                    <img src="#" alt="이미지3">
+                    <img src="img/footer/github_icon.png" alt="github">
                 </a>
             </div>
         </div>
+
         <footer id="footer_container">
             <small>Copyright © 2023.02. Taeshin Park. All rights reserved.</small>
         </footer>
