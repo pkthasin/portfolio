@@ -1,11 +1,11 @@
-$(function(){
-   $(".slide_gall").bxSlider({
-    auto:true,
-    pause:1500,
-    autoHover:true,
-    autoControls:true,
-    autoControlsCombine:true
-   });
+// $(function(){
+//    $(".slide_gall").bxSlider({
+//     auto:true,
+//     pause:1500,
+//     autoHover:true,
+//     autoControls:true,
+//     autoControlsCombine:true
+//    });
 
 //    $("#notice-tab-wrap h4 a").on("click", tabmenu);
 
@@ -28,4 +28,4 @@ $(function(){
 //     itemSelector: '.grid-item',
 //     layoutMode: 'fitRows'
 //    });
-});
+// });

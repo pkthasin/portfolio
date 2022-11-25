@@ -26,9 +26,16 @@ up_arrow_icon & up_arrow_alt
 원저작물에 적용된 CC 라이선스: CC BY-SA 4.0
 변경된 사항 표시: 이미지 색감 / 크기 조정
 
-email-icon
+email_icon
 원저작물의 제목: emoji-1F4E7
 원저작자: Marius Schnabel
 원저작물의 출처링크: https://openmoji.org/library/emoji-1F4E7/
+원저작물에 적용된 CC 라이선스: CC BY-SA 4.0
+변경된 사항 표시: 이미지 색감 / 크기 조정
+
+phone_icon
+원저작물의 제목: emoji-1F4F1
+원저작자: Martin Wehl
+원저작물의 출처링크: https://openmoji.org/library/emoji-1F4F1/
 원저작물에 적용된 CC 라이선스: CC BY-SA 4.0
 변경된 사항 표시: 이미지 색감 / 크기 조정

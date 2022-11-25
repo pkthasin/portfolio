@@ -37,7 +37,7 @@
     height: 50px;
     left: 200px;
     top: 25px;
-    font-size: 30px;
+    font-size: 2rem;
     font-weight: bold;
     text-align: center;
     margin: 0px auto;
@@ -45,14 +45,13 @@
     border: 2px solid rgba(0, 0, 0, 0.5);
 }
 
-/* 반응형 적용 필요 */
 .profileWrap .profile_introduce{
     position: absolute;
     width: calc(100% - (120px + 120px));
     height: 110px;
     left: 200px;
     top: 80px;
-    font-size: 20px;
+    font-size: 1.2rem;
     font-weight: bold;
     text-align: left;
     line-height: 40px;    
@@ -84,11 +83,11 @@
     height: 50px; 
     left: 10px;
     top: 10px;
-    font-size: 28px;
+    font-size: 1rem;
     text-align: center;
     margin: 0px auto;
     /* 가이드용 border */
-    border-bottom: 5px solid rgba(0, 0, 0, 0.5);
+    border-bottom: 0.2rem solid rgba(0, 0, 0, 0.5);
 }
 
 .educationWrap .education_contents,
@@ -199,17 +198,17 @@
 
 .project_wrap .project_section_intro{
     position: relative;
-    left: 600px;
     top: 150px;
 }
 
 #main_contents .to_top_button{
     float: right;
-    width: 50px;
-    height: 50px;
-    margin-right: 10px;
-    margin-bottom: 10px;
-    border: 2px dashed rgba(0,0,0,0.5);
-    border-radius: 15%;
+    position: fixed;
+    width: 3rem;
+    height: 3rem;
+    right: 1.5rem;
+    bottom: 1.5rem;
+    border: 2px solid rgba(0,0,0,0.5);
+    border-radius: 0.3rem;
     z-index: 998;
 }

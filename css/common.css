@@ -1,9 +1,4 @@
 @charset "utf-8";
-@import url(reset.css);
-
-*, *:after, *:before{
-    box-sizing:border-box;
-}
 
 body{
     background: #ffffff 0 0 repeat-x;
@@ -15,7 +10,6 @@ body{
 #header_wrap{
     background: 0 100% repeat-x;
     background-color: transparent;
-    border-bottom: 2px solid rgb(221, 221, 221);
 }
 
 #header_container{
@@ -33,33 +27,24 @@ body{
     margin:0 auto;  
 }
 
-#main_contents .to_top_button{
-    float: right;
-    width: 50px;
-    height: 50px;
-    margin-right: 10px;
-    margin-bottom: 10px;
-    border: 2px dashed rgba(0,0,0,0.5);
-    border-radius: 15%;
-    z-index: 998;
-}
-
 #gnb{
-    position: absolute;
+    position: fixed;
     width: 100%;
     left: 0;
-    bottom: 0;
+    right: 0;
+    top: 0;
     z-index: 999;
 }
 
 #gnb > ul > li{
-    width:33%;
+    width:33.33%;
     float: left;
     position: relative;
+    list-style: none;
 }
 
 #gnb > ul > li > a{
-    background-color: transparent;
+    background-color: rgb(255, 255, 255);
     height: 45px;  
     color: rgb(85,85,85);
     font-size: 18px;
@@ -68,6 +53,7 @@ body{
     text-decoration: none;
     display: block;
     line-height: 45px;
+    border-bottom: 2px solid rgb(221, 221, 221);
 }
 
 #footerline{
@@ -83,49 +69,50 @@ body{
 #footerline .footer_icon_wrap{
     position: relative;
     height: 90px;
-    width: 400px;
+    width: 100%;
     margin: 10px auto;
+    text-align: center;
 }
 
 #footerline .footer_icon_wrap div{
-    position: absolute;
-    width: 60px;
-    height: 60px;
+    width: 3.5rem;
+    height: 3.5rem;
     display: inline-block;
-    margin-top: 5px;
+    margin-top: 0.5rem;
     border: 2px solid rgba(255,255,255,0.5);
-    border-radius: 15%;
+    border-radius: 0.5rem;
 
-    transform: translate(-50%,0);
     overflow-x: hidden;
     overflow-y: hidden;
 }
 
-#footerline .footer_icon_wrap div:nth-child(1){
-    left:20%
+/* #footerline .footer_icon_wrap div:nth-child(1){
+    left:16%
 }
 
 #footerline .footer_icon_wrap div:nth-child(2){
-    left:40%
+    left:32%
 }
 
 #footerline .footer_icon_wrap div:nth-child(3){
-    left:60%
+    left:48%
 }
 
 #footerline .footer_icon_wrap div:nth-child(4){
-    left:80%
+    left:64%
 }
 
+#footerline .footer_icon_wrap div:nth-child(5){
+    left:80%
+} */
 #footer_container{
     position: absolute;
-    width: 400px;
+    width: 100%;
     height: 40px;
     padding: 10px 0;
-    text-align: center;
-    left: 50%;
     bottom: 0px;
+    font-size: 0.9rem;
     font-weight: bold;
+    text-align: center;
     color: rgb(255, 255, 255);
-    transform: translate(-50%,0);
 }
