@@ -5,7 +5,7 @@ home_icon
 원저작물에 적용된 CC 라이선스: CC BY-SA 4.0
 변경된 사항 표시: 이미지 색감 / 크기 조정
 
-portfolio_icon
+resume_icon
 원저작물의 제목: emoji-1F4C3
 원저작자: Jonas Roßner
 원저작물의 출처링크: https://openmoji.org/library/emoji-1F4C3/

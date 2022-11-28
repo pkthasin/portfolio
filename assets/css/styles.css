@@ -10,7 +10,7 @@
 
 /* ======= Base ======= */
 body {
-  font-family: 'Lato', arial, sans-serif;
+  font-family: 'Noto Sans KR', 'Lato', arial, sans-serif;
   color: #434343;
   background: #DAE3E7;
   font-size: 16px;
@@ -26,6 +26,9 @@ h6 {
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
   color: #778492;
+}
+p {
+  font-family: 'Noto Sans KR', 'Montserrat', sans-serif;
 }
 a {
   color: #3AAA64;
